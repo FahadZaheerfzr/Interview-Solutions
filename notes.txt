@@ -1,0 +1,18 @@
+Question:
+Time complexity of condition in a single for loop is
+
+Answer:
+n+1 (Since the condition is executed once more where it is tested to be false)
+
+Question:
+React hook for Component will unmount
+
+Answer:
+useEffect(()=>{
+    return () => {
+        // your code here
+    }
+}, [])
+
+So use effect with a return statement can be used as a replacement for
+component will unmount
